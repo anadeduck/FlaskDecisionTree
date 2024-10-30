@@ -14,9 +14,21 @@ def home():
 @app.route("/Jogartenis", methods=["POST"])
 def Jogartenis():
     # Captura os parâmetros enviados pelo formulário (método POST)
+    # 'outlook': o, 'temperature': t, 'humidity': h, 'wind', w
     print('Log: Receive var from POST')
-    print('Log: Value of K = ', request.form.get("k"))
-    result = answerDecisionTree()
+    print('Log: Value of o = ', request.form.get("o"))
+    o = request.form.get("o")
+   
+    print('Log: Value of t = ', request.form.get("t"))
+    t = request.form.get("t")
+
+    print('Log: Value of h = ', request.form.get("h"))
+    h = request.form.get("h")
+   
+    print('Log: Value of w = ', request.form.get("w"))
+    w = request.form.get("w")
+
+    result = answerDecisionTree(o,t,h,w)
 
 
     # Aqui você pode inserir o código da árvore de decisão baseado nas variáveis recebidas
