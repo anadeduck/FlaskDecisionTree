@@ -1,5 +1,4 @@
-# ![FlaskDecisionTree](logo.png) FlaskDecisionTree
-<img src="logo.png" width="100" height="100">
+# <img src="logo.png" width="100" height="100"> FlaskDecisionTree
 This is project used for study Decision Tree machine learning model and Flask API from python.
 
 We are using *tennis.csv* to training our model and using the following parameters to decide to play tennis or no:
