@@ -1,7 +1,7 @@
-# ![FlaskDecisionTree](logo.png "FlaskDecisionTree logo") FlaskDecisionTree
+# ![FlaskDecisionTree](logo.png "FlaskDecisionTree logo" | width=100) FlaskDecisionTree
 This is project used for study Decision Tree machine learning model and Flask API from python.
 
-We are using de tenis.csv to training our model and using the following parameters to decide to play tenis or no:
+We are using *tennis.csv* to training our model and using the following parameters to decide to play tennis or no:
 - outlook
 - temperature
 - humidity
@@ -14,9 +14,9 @@ We are using de tenis.csv to training our model and using the following paramete
 ## PIP Install
 Install the following packages from PIP:
 
-`$ pip install Flask` 
-`$ pip install pandas`
-`$ pip install scikit-learn matplotlib`
+`$ pip install Flask` <br>
+`$ pip install pandas` <br>
+`$ pip install scikit-learn matplotlib` <br>
 
 # How to use:
 
